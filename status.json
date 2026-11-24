@@ -1,13 +1,13 @@
 {
   "node_id": "decentralized-ai-node-01",
   "node_status": "ACTIVE",
-  "block_height": 1001,
-  "total_heartbeats": 1,
+  "block_height": 1002,
+  "total_heartbeats": 2,
   "ai_inference_heartbeat": {
     "status": "HEALTHY",
     "model": "light-validator-v1",
-    "inference_hash": "29f3f579f6cb3fbd",
+    "inference_hash": "a45a9dd26f27eb22",
     "latency_ms": 42
   },
-  "timestamp_utc": "2026-11-24T18:52:05.750355+00:00"
+  "timestamp_utc": "2026-11-24T19:02:15.961639+00:00"
 }
