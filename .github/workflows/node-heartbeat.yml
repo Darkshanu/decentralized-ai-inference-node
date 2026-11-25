@@ -5,11 +5,15 @@ env:
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: node-heartbeat-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   heartbeat:
@@ -33,4 +37,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add status.json
           git diff --staged --quiet || git commit -m "chore: update node heartbeat status"
+          git pull --rebase origin main
           git push
