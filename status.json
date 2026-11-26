@@ -1,20 +1,20 @@
 {
   "node_id": "decentralized-ai-node-01",
   "node_status": "ACTIVE",
-  "block_height": 1006,
-  "total_heartbeats": 6,
+  "block_height": 1007,
+  "total_heartbeats": 7,
   "ai_inference_heartbeat": {
     "status": "HEALTHY",
     "model": "light-validator-v1",
-    "inference_hash": "6c03810eb7dc636e",
+    "inference_hash": "a596c2efb2ead9be",
     "latency_ms": 42
   },
   "injective_network": {
     "network": "injective-mainnet",
     "endpoint": "https://sentry.lcd.injective.network/cosmos/base/tendermint/v1beta1/blocks/latest",
     "status": "CONNECTED",
-    "latest_block_height": 193357819,
-    "latency_ms": 882.17
+    "latest_block_height": 193423229,
+    "latency_ms": 672.67
   },
-  "timestamp_utc": "2026-11-26T02:36:48Z"
+  "timestamp_utc": "2026-11-26T13:29:33Z"
 }
